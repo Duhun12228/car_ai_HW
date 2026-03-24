@@ -18,4 +18,4 @@ for epoch in range(1000):
     optimizer.step()
     print(f'epoch: {epoch}, loss: {loss.item()}')
 
-print(f'model: y = {model._parameters['weight'].data.numpy()}x + {model._parameters['bias'].data.numpy()}')
+print(f"model: y = {model._parameters['weight'].data.numpy()}x + {model._parameters['bias'].data.numpy()}")
